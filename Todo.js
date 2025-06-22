@@ -1,33 +1,3 @@
-// let todoList = [];
-// displayItem();
-
-// function addTodo(){
-//     let inputElement = document.querySelector
-//     ('#todo-input');
-//     let todoItem = inputElement.Value;
-//     todoList.push(todoItem);
-//     inputElement.value = '';
-
-//     displayItem();
-// }
-// function displayItem(){
-//     let containerElement = document.querySelector
-//     ('.todo-container');
-//     let newHtml = ''; 
-
-//     for(let i = 0; i < todoList.length; i++) {
-//      newHtml += `
-//      <div>
-//       <span>${todoList[i]}</span>
-//     <button onclick"todoList.splice(${i}, 1);
-//     displayItems();">Delete</button>
-//     </div>
-//     `;
-//     }
-//     containerElement.innerHTML = newHtml;  
-// }
-
-
 let todoList = [
   {
     item: 'Buy Milk',
